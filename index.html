@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+
+<body>
+	<h1 class="crystal-title">CRYSTALS COLLECTOR!</h1>
+
+
+	<div class="instructions">
+		<p>You will be given a random number at the start of the game.
+
+			<br>
+
+			there are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+			total scor.
+			<br>
+			You win the game by matching your total score goes abouve the ramdom number
+			<br>
+			The value of each crystal is hidden from you until you click on it
+			<br>
+			Each time when the game starts, the game will change the value of each crystal.
+		</p>
+
+
+
+	</div>
+
+
+	<div class="titleCrystal">
+
+		<h3 id="magicNumber"></h3>
+
+		<div id="winLoss" class="col-lg-4 scores">
+			<p class="score">WINS: <span id="wins"></span></p>
+			<p class="score">LOSSES: <span id="losses"></span></p>
+		</div>
+
+
+	</div>
+
+
+
+
+
+	<div class="container">
+
+		<div class="row">
+			<div class="img-1">
+				<img class="crystalimg img-responsive" id="crystal1" src="assets/images/crystal-1jpg.jpg" alt="Crystal 1" />
+			</div>
+			<div class="img-2">
+				<img class="crystalimg img-responsive" id="crystal2" src="assets/images/crystal-2jpg.jpg" alt="Crystal 2" />
+			</div>
+			<div class="img-3">
+				<img class="crystalimg img-responsive" id="crystal3" src="assets/images/crystal-3.jpg" alt="Crystal 3" />
+			</div>
+			<div class="img-4r">
+				<img class="crystalimg img-responsive" id="crystal4" src="assets/images/crystals-4.jpg" alt="Crystal 4" />
+			</div>
+		</div>
+
+
+
+		<div class="totalBoard">
+			<div>
+				<h3>TOTAL SCORE:</h3>
+				<h3 id="totalScore"></h3>
+			</div>
+			<div>
+				<h3 id="winOrLose"></h3>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
