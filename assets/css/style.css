@@ -1,0 +1,54 @@
+body {
+	background-color: grey;
+	color: white;
+
+}
+
+.titleCrystal {
+
+	text-align: left;
+
+
+}
+
+.instructions {
+	background-color: blanchedalmond;
+	width: 400px;
+	color: red;
+
+}
+
+.row {
+
+	text-align: left;
+	width: 1000px;
+
+}
+
+.crystal-title {
+	background-color: coral;
+	width: 300px;
+
+
+
+}
+
+#magicNumber {
+	background-color: darkgreen;
+	width: 200px;
+	height: 200px;
+}
+
+#winLoss {
+	background-color: aqua;
+	width: 200px;
+	position: relative;
+
+
+}
+
+.totalBoard {
+	background-color: aquamarine;
+	width: 200px;
+
+}
